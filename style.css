@@ -137,7 +137,7 @@ ul{
 }
 .btn:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 15px 5px var(--skin-color);
+    box-shadow: 0 0 15px 5px whitesmoke;
 }
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48,46,77,0.25);
