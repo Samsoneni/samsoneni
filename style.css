@@ -367,8 +367,8 @@ font-size:clamp(1.5rem, 2.5vw,2rem);
     margin-top: 40px;
 }
 .about .about-content .personal-info .info-item{
-    flex:0 0 50%;
-    max-width: 50%;
+    flex:0 0 100%;
+    max-width: 100%;
     
 }
 .about .about-content .personal-info .info-item p{
@@ -742,15 +742,19 @@ footer{
      .aside{
         display:none;
         } 
-        .home .home-img{
-            margin-bottom: 100px;
-        }
+       .home .home-img{
+    margin-bottom:100px;
+}
     .home .home-img::after{
         bottom: -50px;
     }
     .home .home-img img{
-        height: 600px;
+        height: auto;
     }
+        .padd-15{
+    padding-left: 0px;
+    padding-right: 0px;
+}
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -767,10 +771,6 @@ footer{
     
 }
 @media screen and (max-width:450px){
-    .home .home-img{
-       display: none;
-        height: 300px;
-   } 
     .home .container .row{
         flex-direction: column-reverse;
     }
