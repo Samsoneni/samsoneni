@@ -271,7 +271,6 @@ margin-top:50px;
 /*home */
 .home{
     min-height: 100vh;
-    /* display: flex; */
     color: var(--text-black-900);
     padding-top: 100px;
 }
@@ -768,12 +767,17 @@ footer{
     
 }
 @media screen and (max-width:450px){
-   /* .home .home-img{
+    .home .home-img{
        display: none;
-   } */
+        height: 300px;
+   } 
     .home .container .row{
         flex-direction: column-reverse;
     }
+    .padd-15{
+    padding-left: 0px;
+    padding-right: 0px;
+}
    
 }
 
